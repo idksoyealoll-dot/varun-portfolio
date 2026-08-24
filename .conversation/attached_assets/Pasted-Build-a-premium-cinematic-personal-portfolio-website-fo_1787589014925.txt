@@ -1,0 +1,356 @@
+Build a premium, cinematic personal portfolio website for **Varun**, a B.Tech CSE student and freelance creative full-stack developer based in Bhopal, India.
+
+The website should feel like a **high-end creative developer portfolio mixed with a futuristic digital studio website**. The goal is NOT to look like a generic developer portfolio. It should immediately communicate confidence, technical ability, taste, creativity and personality.
+
+## CORE CREATIVE DIRECTION
+
+Think:
+
+**cinematic editorial photography × premium tech product × creative developer × futuristic minimalism**
+
+The website should have an “aura” without becoming cringe.
+
+Avoid:
+
+* Generic portfolio templates
+* Excessive gradients
+* Typical blue SaaS UI
+* Cartoon developer illustrations
+* Hacker/code-rain aesthetics
+* Excessive glassmorphism
+* Overloaded animations
+* Fake skill bars
+* Generic “Hello, I'm a developer” layouts
+
+Use:
+
+* Deep dark visual environment
+* Strong typography
+* Large whitespace
+* Editorial composition
+* Subtle grain/noise
+* Sophisticated motion
+* Soft atmospheric lighting
+* High-quality image treatment
+* Subtle futuristic details
+* Extremely polished spacing and alignment
+
+## HERO — MOST IMPORTANT SECTION
+
+The hero should revolve around Varun's professional portrait.
+
+Use a large, high-quality portrait of Varun as the visual centerpiece. The uploaded/provided portrait should remain recognizable and natural.
+
+Do NOT turn the portrait into an unrealistic AI character.
+
+Treat the photo like a premium editorial campaign photograph.
+
+Possible composition:
+
+LEFT / CENTER:
+Large typography:
+
+“VARUN”
+
+Then:
+
+“CREATIVE
+FULL-STACK
+DEVELOPER.”
+
+Small supporting text:
+
+“Building digital experiences with code, design & AI.”
+
+RIGHT / CENTER:
+Large portrait of Varun with cinematic lighting.
+
+The portrait can subtly overlap the typography and extend beyond the normal grid.
+
+Add extremely subtle ambient effects around the image:
+
+* soft glow
+* grain
+* depth
+* light leaks
+* faint particles
+* subtle gradient atmosphere
+
+These should enhance the photograph, NOT overpower it.
+
+Include small metadata-style details around the hero:
+
+BHOPAL / INDIA
+CSE / DEVELOPER
+AVAILABLE FOR SELECT PROJECTS
+
+Add a minimal scroll indicator.
+
+The first screen should feel like a **movie title sequence for a technology designer/developer**.
+
+## PERSONALITY
+
+Varun should come across as:
+
+* ambitious
+* creative
+* technically capable
+* experimental
+* young but professional
+* confident
+* curious
+* slightly unconventional
+
+The design should communicate:
+
+“I don't just build websites. I build experiences.”
+
+Do not make the copy sound corporate or artificial.
+
+## ABOUT
+
+Create an editorial-style About section.
+
+Headline:
+
+“CODE IS ONLY HALF THE STORY.”
+
+Explain that Varun combines development, design and AI-assisted workflows to turn ideas into functional digital products.
+
+Mention that he is a CSE student and independent developer from Bhopal.
+
+Keep the writing concise and confident.
+
+Include subtle personal details rather than a giant biography.
+
+## SELECTED WORK
+
+Create a highly visual project showcase.
+
+Do NOT use a boring card grid.
+
+Each project should feel like a case-study feature.
+
+Featured projects can include:
+
+1. E-commerce experience
+2. Aji-OS
+3. Night Form
+4. Experimental/AI projects
+5. Selected freelance/client work
+
+Each project should contain:
+
+PROJECT NUMBER
+PROJECT NAME
+SHORT DESCRIPTION
+ROLE
+TECHNOLOGIES
+
+Use large project screenshots/mockups.
+
+Allow projects to alternate between:
+
+* full-width imagery
+* split layouts
+* overlapping compositions
+* horizontal scrolling sections
+* immersive project previews
+
+Projects should animate into view smoothly.
+
+## THE LAB
+
+Create an experimental section called:
+
+“THE LAB”
+
+Subtitle:
+
+“Things I built because I wondered if I could.”
+
+Show experimental projects, prototypes, AI experiments, UI concepts, automation ideas and unusual technical experiments.
+
+This section should feel more playful and experimental than the main portfolio.
+
+## CAPABILITIES
+
+Instead of skill bars, create large typography-based categories:
+
+01 — PRODUCT DEVELOPMENT
+02 — FRONTEND ENGINEERING
+03 — BACKEND & APIs
+04 — UI / UX
+05 — AI-ASSISTED DEVELOPMENT
+06 — CREATIVE TECHNOLOGY
+
+Include technologies naturally:
+
+React, JavaScript, Vite, Python, FastAPI, Supabase, PostgreSQL, Tauri, Git, GitHub, Playwright and AI development tools.
+
+Do not assign fake percentage proficiency levels.
+
+## EXPERIENCE / PROOF
+
+Create a compact credibility section.
+
+Use verified numbers only.
+
+Potential metrics:
+
+10+ CLIENTS
+$250+ PROJECT VALUE
+50+ OUTREACH EXPERIMENTS
+
+If a number cannot be verified, do not display it.
+
+The section should look like an editorial statistics spread rather than a dashboard.
+
+## CONTACT
+
+End with a dramatic, minimal closing section.
+
+Headline:
+
+“GOT SOMETHING WORTH BUILDING?”
+
+Subtext:
+
+“Let's turn the idea into something real.”
+
+Add:
+EMAIL
+INSTAGRAM
+GITHUB
+LINKEDIN
+
+Make the contact section visually striking but minimal.
+
+## NAVIGATION
+
+Use a minimal floating navigation:
+
+WORK
+LAB
+ABOUT
+CONTACT
+
+Keep navigation transparent/subtle and make it become slightly more visible when scrolling.
+
+## MOTION
+
+Use sophisticated motion throughout.
+
+Examples:
+
+* Portrait slowly moves with subtle parallax
+* Typography reveals character-by-character or line-by-line
+* Project images scale subtly on scroll
+* Sections fade/slide naturally
+* Cursor interactions create tiny visual responses
+* Magnetic buttons
+* Smooth page transitions
+* Horizontal project movement where appropriate
+* Text distortion only very subtly
+* Ambient background movement
+
+IMPORTANT:
+
+Animations must feel expensive and intentional.
+
+Never make everything bounce, rotate or fly around.
+
+Performance matters.
+
+Use GPU-friendly CSS transforms and avoid unnecessary animation libraries/effects.
+
+## RESPONSIVENESS
+
+The portfolio must be fully responsive.
+
+Desktop:
+Large cinematic composition.
+
+Tablet:
+Preserve the editorial hierarchy.
+
+Mobile:
+Do NOT simply shrink the desktop version.
+
+Create a dedicated mobile composition:
+
+* portrait remains prominent
+* typography remains dramatic
+* project imagery stays large
+* navigation becomes compact
+* animations are reduced where necessary
+
+## IMAGE HANDLING
+
+The supplied portrait is extremely important.
+
+Prioritize:
+
+* natural skin
+* realistic facial proportions
+* sharp eyes
+* realistic lighting
+* professional color grading
+
+Do not excessively retouch the person.
+
+The image should feel like an actual professional editorial photograph.
+
+If the supplied photo has a distracting background, isolate the subject carefully and place them into the site's visual environment.
+
+## TECHNICAL REQUIREMENTS
+
+Build using a modern React-based architecture.
+
+Use:
+
+* React
+* Vite
+* modern CSS
+* Framer Motion or another appropriate animation system
+* optimized images
+* semantic HTML
+* responsive design
+* accessible interactions
+
+Structure the project cleanly.
+
+Components should be reusable.
+
+Do not put everything inside one component.
+
+Ensure:
+
+* fast loading
+* good Lighthouse performance
+* SEO metadata
+* Open Graph metadata
+* accessible contrast
+* keyboard navigation
+* responsive typography
+* reduced-motion support
+
+## FINAL DESIGN TEST
+
+When finished, ask:
+
+Would this look believable as the portfolio of a serious creative developer?
+
+Would a potential client stop scrolling when they see the hero?
+
+Does the portrait feel like part of a premium campaign rather than a profile picture pasted onto a website?
+
+Does the website have personality without becoming childish?
+
+Does it feel original rather than like another Awwwards clone?
+
+If not, refine the design.
+
+The final result should feel like:
+
+**“A developer who treats his portfolio like his first product.”**
