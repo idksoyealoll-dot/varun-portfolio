@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Varun — Creative Full-Stack Developer"
+description = "A cinematic personal portfolio for Varun, a Bhopal-based creative full-stack developer building thoughtful digital experiences with code, design, and AI."
+version = "1.0.0"
+id = "artifacts/varun-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23360
+
+[services.development]
+run = "pnpm --filter @workspace/varun-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/varun-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/varun-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23360"
+BASE_PATH = "/"
